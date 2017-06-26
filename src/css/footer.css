@@ -1,0 +1,18 @@
+.footer{
+  background-color: rgb(66, 160, 255);
+  position: fixed;
+  display: flex;
+  width: 100%;
+  bottom:0;
+}
+.footer a{
+  flex-grow:1;
+  color:#fff;
+  font-size: 16px;
+  text-decoration: none;
+  text-align: center;
+  padding: 2% 0%;
+}
+.footer .iconfont{
+  font-size: 36px;
+}

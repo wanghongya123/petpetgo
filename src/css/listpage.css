@@ -1,0 +1,63 @@
+.listpage{
+
+}
+.listpage .listpage-header{
+  background-color:rgb(66, 160, 255);
+  width: 100%;
+  /*height: 50px;*/
+  color:#fff;
+}
+.listpage .listpage-header .listpage-return{
+  font-size: 20px;
+}
+.listpage .listpage-header .listpage-return .list-header-return{
+  border-right:1px solid #fff;
+  line-height:60px;
+  padding-right: 15px;
+  margin-left:3%;
+}
+.listpage .listpage-header .listpage-return .list-header-name{
+  padding-left: 15px;
+}
+.listpage .listpage-top{
+  width: 100%;
+  background-color: #fff;
+  display:flex;
+  justify-content: space-around;
+  border-top: 3px solid #ccc;
+  border-bottom: 3px solid #ccc;
+}
+.listpage .listpage-top a{
+  font-size: 18px;
+  color:#6d6d6d;
+  line-height:2.5;
+  padding:0px 10px;
+}
+.listpage .listpage-top a:hover{
+  border-bottom:3px solid rgb(66, 160, 255);
+}
+.listpage .listpage-main{
+  margin: 0 auto;
+  display:flex;
+}
+.listpage .listpage-main .list-main-box1{
+  width: 100%;
+  display:flex;
+}
+.listpage .listpage-main .main-left{
+  width:25%;
+  border:1px solid #ccc;
+}
+.listpage .listpage-main .main-left .list-cats{
+  text-align: center;
+  color:#6d6d6d;
+  padding: 5px 5px;
+  border-bottom:1px solid rgb(66, 160, 255);
+  display:block;
+}
+.listpage .listpage-main .main-right{
+  background-color: #fff;
+  width: 75%;
+  height: 500px;
+  padding:0 5%;
+}

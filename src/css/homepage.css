@@ -1,0 +1,136 @@
+
+.header{
+  display: flex;
+  width: 100%;
+  /*background-image: url("../img/bgi1.jpg");
+  background-repeat: no-repeat;
+  background-size:100% 100%;*/
+  background-color:rgb(66, 160, 255);
+  justify-content:space-around;
+  align-items:center;
+  color:#fff;
+  position: fixed;
+  top:0;
+}
+.header .h-search{
+  font-size:16px;
+  color:#fff;
+  text-decoration: none;
+}
+.header .search .icon-sousuo-sousuo{
+  padding: 5px;
+}
+.logo{
+  width:30%;
+  display: flex;
+  margin:3% 0%;
+
+}
+.logo .img{
+  width: 50px;
+  height: 50px;
+  background-image: url("../img/cat-logo.png");
+  background-repeat: no-repeat;
+  background-size:100% 100%;
+}
+.logo span{
+  color:#fff;
+  margin-top:10px;
+  padding-left:5px;
+}
+.header a .icon-sousuo-sousuo{
+  padding-right: 5px;
+}
+.header .position{
+  font-size: 16px;
+  color:#fff;
+  text-decoration: none;
+  background-color: #258;
+  border-radius: 5px;
+  padding:2px;
+  width:100px;
+}
+.homepage{
+  display:flex;
+  flex-direction:column;
+
+}
+.homepage .homepage-main{
+  width: 100%;
+  margin-top:72.5px;
+  margin-bottom:82px;
+}
+.homepage .homepage-main .home-banner .home-img{
+  width: 100%;
+  height: 170px;
+}
+.homepage .homepage-main .home-box{
+  width: 100%;
+  background-color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  border-radius: 5px;
+}
+.homepage .homepage-main .home-box .home-box-a{
+    width: 20%;
+    color:#000;
+    text-align: center;
+    margin-left: 4%;
+    margin-top:1%;
+}
+.homepage .homepage-main .home-box .home-box-a a{
+  display:block;
+  width: 70%;
+  height: 60%;
+    margin: 0 auto;
+  background-color: rgb(66, 160, 255);
+  border-radius: 50%;
+  text-align: center;
+  border:1px solid rgb(66, 160, 255);
+  overflow: hidden;
+}
+.homepage .homepage-main .home-box .home-box-a a .home-box-a-img{
+  width: 100%;
+  height: 100%;
+}
+.homepage .homepage-main .home-list{
+  text-align: center;
+  background-color: #fff;
+  margin-top: 10px;
+}
+.homepage .homepage-main .home-list .list-a a{
+  margin-left: 1%;
+  width: 20%;
+  padding:0px 10px;
+  border-right:1px solid #159
+}
+.homepage .homepage-main .home-list .list-a{
+  border-top:1px solid #159;
+  border-bottom: 1px solid #159;
+  padding:10px 0px;
+  width: 90%;
+  margin:0 auto;
+}
+.homepage .homepage-main .home-list .list-list{
+  width: 90%;
+  margin: 0 auto;
+}
+.homepage .homepage-main .home-list .list-list .list-newlist{
+  text-align: left;
+  border:1px solid #159;
+  border-radius: 5px;
+  margin-top: 10px;
+  display:block;
+  line-height: 80px;
+}
+.homepage .homepage-main .home-list .list-list .list-newlist .list-pic{
+  width: 100px;
+  height: 60px;
+  vertical-align: middle;
+  margin-left:10px;
+}
+.homepage .homepage-main .home-list .list-list .list-newlist span{
+  vertical-align: middle;
+  line-height: 2;
+  margin-left: 10px;
+}

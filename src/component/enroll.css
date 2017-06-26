@@ -1,0 +1,67 @@
+
+.enroll{
+  background-image: url(../img/bgi0.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  display:flex;
+  height: 100vh;
+  flex-direction: row;
+    color:#fff;
+      align-items: center;
+}
+.enroll h1{
+  text-align: center;
+  margin-bottom:15%;
+}
+.enroll-from{
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  color:#fff;
+  margin:0 auto;
+
+}
+.enroll-from .enroll-from-box{
+  /*margin:0 auto;*/
+  width: 300px;
+  font-size: 20px;
+}
+.enroll-from input{
+  background-color:rgba(243, 243, 243, 0.15);
+  width: 100%;
+  height: 30px;
+  font-size: 18px;
+  color:#000;
+}
+.enroll-from-box1{
+  margin-top:10%;
+  width: 300px;
+  display: flex;
+  flex-direction:row;
+  justify-content: space-between;
+}
+.enroll-from-box1 .enroll-enroll{
+  /*height: 50px;*/
+  font-size:20px;
+  background-color:rgba(243, 243, 243, 0);
+  color:#fff;
+  text-decoration: none;
+  padding:5px 10px;
+  outline: 0px;
+  border:0;
+
+}
+.enroll-from-box2{
+  margin-top: 5%;
+  width: 300px;
+}
+.enroll-a{
+  text-decoration: none;
+  /*color:#fff;*/
+  font-size: 12px;
+}
+.enroll-from-box3{
+  width: 300px;
+  font-size: 13px;
+  margin-top: 20px;
+}
