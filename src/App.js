@@ -11,15 +11,12 @@ import ListPage from "./component/listPage.js"
 import "./css/iconfont.css"
 import store from "./redux/store.js"
 import { Provider } from "react-redux"
-import {
-  BrowserRouter as Router,
-  Route
-} from 'react-router-dom'
+import { Route, HashRouter } from 'react-router-dom'
 class App extends Component {
   render() {
     return (
       <Provider store={store}>
-          <Router>
+          <HashRouter>
             <div className="App">
               <Route  exact path="/" component={HomePage} />
               <Route  path="/enter" component={Enter} />
@@ -30,7 +27,7 @@ class App extends Component {
               <Route  path="/mypage" component={MyPage} />
               <Route  path="/homePage/:id/listPage" component={ListPage} />
             </div>
-          </Router>
+          </HashRouter>
       </Provider>
 
     );

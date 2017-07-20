@@ -45,49 +45,49 @@ class HomePage extends Component {
               <a>
                 <img className="home-box-a-img" alt="banner" src={require("../img/timg-dog.jpg")}></img>
               </a>
-              <span>面</span>
+              <span>萌狗狗</span>
             </div>
             <div className="home-box-a">
               <a>
                 <img className="home-box-a-img" alt="banner" src={require("../img/time3.jpg")}></img>
               </a>
-              <span>家常菜</span>
+              <span>可爱鸟</span>
             </div>
             <div className="home-box-a">
               <a >
                 <img className="home-box-a-img" alt="banner" src={require("../img/time2.jpg")}></img>
               </a>
-              <span>农家乐</span>
+              <span>圆圆鼠</span>
             </div>
             <div className="home-box-a">
               <a >
                 <img className="home-box-a-img" alt="banner" src={require("../img/zhu.jpg")}></img>
               </a>
-              <span>东北菜</span>
+              <span>迷你猪</span>
             </div>
             <div className="home-box-a">
               <a >
                 <img className="home-box-a-img" alt="banner" src={require("../img/time6.jpg")}></img>
               </a>
-              <span>山珍野味</span>
+              <span>长耳兔</span>
             </div>
             <div className="home-box-a">
               <a >
                 <img className="home-box-a-img" alt="banner" src={require("../img/time4.jpg")}></img>
               </a>
-              <span>海鲜</span>
+              <span>五彩鱼</span>
             </div>
             <div className="home-box-a">
               <a >
                 <img className="home-box-a-img" alt="banner" src={require("../img/timg1.jpg")}></img>
               </a>
-              <span>五星饭店</span>
+              <span>喵星人</span>
             </div>
             <div className="home-box-a">
               <a >
                 <img className="home-box-a-img" alt="banner" src={require("../img/time5.jpg")}></img>
               </a>
-              <span>绿色蔬菜</span>
+              <span>高冷宠</span>
             </div>
           </div>
           <div className="home-list">

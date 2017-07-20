@@ -22,7 +22,7 @@ class Header extends Component {
         </a>
         <div className="logo">
           <div className="img"></div>
-          <span>吃货</span>
+          <span>萌萌宠</span>
         </div>
         <Link to="/search" className="h-search"><i className="iconfont icon-sousuo-sousuo"></i>搜索</Link>
       </div>
